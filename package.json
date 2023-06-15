@@ -7,7 +7,8 @@
   "jsdelivr": "./dist/v-annotator.umd.min.js",
   "typings": "dist/types/index.d.ts",
   "license": "MIT",
-  "author": "Hironsan",
+  "author": "Chicago PCDC",
+  "description": "A modified version of Hironsan's v-annotator for the Chicago PCDC",
   "files": [
     "dist"
   ],
@@ -62,5 +63,8 @@
     "setupFiles": [
       "jest-canvas-mock"
     ]
+  },
+  "publishConfig": {
+    "@chicagopcdc:registry": "https://npm.pkg.github.com"
   }
 }

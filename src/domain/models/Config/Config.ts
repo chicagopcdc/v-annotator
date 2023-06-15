@@ -9,7 +9,7 @@ interface Config {
 const defaultConfig: Config = Object.freeze({
   radius: 3,
   lineWidth: 5,
-  maxLabelLength: 12,
+  maxLabelLength: 500,
   get labelMargin(): number {
     return 5 + this.radius;
   },
